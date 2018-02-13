@@ -10,7 +10,8 @@ def display(mytree) :
     globalNodes.append(firstKey);
     if isinstance(mytree[firstKey], dict):
         traverseTree(mytree[firstKey], firstKey, firstKey)
-   
+
+
 def traverseTree(mytree, parentkey, grandParentKey):
     global count;
     for key in mytree:
